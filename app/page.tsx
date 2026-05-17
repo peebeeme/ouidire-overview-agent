@@ -1022,10 +1022,14 @@ export default function Home() {
             {/* 2. Clusters */}
             <ClustersSection
               narrativeClusters={
-                result.level === "document" ? (result as DocumentAnalysis).narrativeClusters : []
+                result.level === "document"
+                  ? (result as DocumentAnalysis).narrativeClusters
+                  : (result as BundleAnalysis).narrativeClusters
               }
               clinicalClusters={
-                result.level === "document" ? (result as DocumentAnalysis).clinicalClusters : []
+                result.level === "document"
+                  ? (result as DocumentAnalysis).clinicalClusters
+                  : (result as BundleAnalysis).clinicalClusters
               }
             />
 

@@ -118,6 +118,8 @@ export interface BundleAnalysis {
   documents: BundleDocumentSummary[];
   narrativeReasoning: CardLensResult[];
   clinicalReasoning: CardLensResult[];
+  narrativeClusters: ReasoningCluster[];
+  clinicalClusters: ReasoningCluster[];
   crossDocumentPatterns: string[];
   documentContrasts: string[];
   globalThesis: string;
@@ -524,6 +526,8 @@ export async function runOverviewAgent(req: OverviewRequest): Promise<OverviewRe
       documents,
       narrativeReasoning: narrativeResult.cardReasoning,
       clinicalReasoning: clinicalResult.cardReasoning,
+      narrativeClusters: narrativeResult.clusters,
+      clinicalClusters: clinicalResult.clusters,
       crossDocumentPatterns: Array.isArray(synth.crossDocumentPatterns)
         ? synth.crossDocumentPatterns.map(String)
         : [],
