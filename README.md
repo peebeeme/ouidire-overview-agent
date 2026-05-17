@@ -87,11 +87,16 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full diagram and API contract.
 ### Setup
 
 ```bash
+git clone https://github.com/peebeeme/ouidire-overview-agent
 cd ouidire-overview-agent
 npm install
-cp .env.example .env.local
-# Add your GEMINI_API_KEY to .env.local
 npm run dev
+```
+
+Create a `.env.local` file at the root with:
+
+```
+GEMINI_API_KEY=your_key_here
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
