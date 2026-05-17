@@ -1123,13 +1123,11 @@ export default function Home() {
             <br />
             Synthetic data only · No real patient records · No authentication, billing, or OCR.
             <br />
-            <span style={{ color: C.dim }}>
-              The full OuiDire platform includes document upload, real-record analysis, user accounts, credits, and production audit workflows.
-            </span>
+            The full OuiDire platform includes document upload, real-record analysis, user accounts, credits, and production audit workflows.
           </p>
         </div>
 
-        <p style={{ fontSize: 12, color: C.dim, margin: "24px 0 0", lineHeight: 1.7, textAlign: "center" as const, fontStyle: "italic", maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
+        <p style={{ fontSize: 12, color: C.muted, margin: "24px 0 0", lineHeight: 1.7, textAlign: "center" as const, fontStyle: "italic", maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
           Developer&apos;s note: This challenge submission also serves OuiDire.app product development. It gives us a public-safe way to test document-level synthesis, bundle-level reasoning, and future improvements to the Master Brief — all of which depend on reasoning beyond individual cards. As a bonus, building this demo made it concrete: I can already see exactly how the Overview Agent will strengthen the Master Brief in production.
         </p>
 
