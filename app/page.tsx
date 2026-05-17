@@ -834,7 +834,7 @@ export default function Home() {
                 letterSpacing: 0.2,
               }}
             >
-              {phase === "loading" ? "Analyzing…" : "Analyse complète →"}
+              {phase === "loading" ? "Analyzing…" : "Run full analysis →"}
             </button>
             {runTime !== null ? (
               <span style={{ fontSize: 12, color: C.secondary }}>
