@@ -675,22 +675,14 @@ export default function Home() {
       }}
     >
       {/* Top bar */}
-      <div
-        style={{
-          borderBottom: `1px solid ${C.border}`,
-          padding: "14px 40px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <div style={{ fontSize: 14, fontWeight: 700, color: C.text, letterSpacing: -0.2 }}>
+      <div className="site-header" style={{ borderBottom: `1px solid ${C.border}` }}>
+        <div style={{ fontSize: 14, fontWeight: 700, color: C.text, letterSpacing: -0.2, minWidth: 0 }}>
           OuiDire
           <span style={{ color: C.muted, fontWeight: 400, marginLeft: 8, fontSize: 13 }}>
             Overview Agent
           </span>
         </div>
-        <div style={{ fontSize: 11, color: C.muted }}>
+        <div className="site-header-meta" style={{ color: C.muted }}>
           Google AI Agents Challenge 2026 · Synthetic data · Public-safe
         </div>
       </div>
