@@ -727,9 +727,6 @@ export default function Home() {
         <p style={{ margin: "0 0 16px", fontSize: 14, color: C.muted, lineHeight: 1.65, maxWidth: 620 }}>
           The source cards are synthetic and untagged. Gemini reads them through two analytical lenses: Narrative and Clinical. The signals are in the text; the reasoning is the demo.
         </p>
-        <p style={{ margin: "0 0 28px", fontSize: 13, color: C.muted, lineHeight: 1.6, maxWidth: 620, fontStyle: "italic" }}>
-          Developer&apos;s note: This challenge submission also serves OuiDire.app product development. It gives us a public-safe way to test document-level synthesis, bundle-level reasoning, and future improvements to the Master Brief — all of which depend on reasoning beyond individual cards. As a bonus, building this demo made it concrete: I can already see exactly how the Overview Agent will strengthen the Master Brief in production.
-        </p>
         <div
           style={{
             display: "flex",
@@ -1131,6 +1128,10 @@ export default function Home() {
             </span>
           </p>
         </div>
+
+        <p style={{ fontSize: 12, color: C.dim, margin: "24px 0 0", lineHeight: 1.7, textAlign: "center" as const, fontStyle: "italic", maxWidth: 600, marginLeft: "auto", marginRight: "auto" }}>
+          Developer&apos;s note: This challenge submission also serves OuiDire.app product development. It gives us a public-safe way to test document-level synthesis, bundle-level reasoning, and future improvements to the Master Brief — all of which depend on reasoning beyond individual cards. As a bonus, building this demo made it concrete: I can already see exactly how the Overview Agent will strengthen the Master Brief in production.
+        </p>
 
       </div>
     </div>
