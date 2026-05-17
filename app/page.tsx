@@ -827,9 +827,9 @@ export default function Home() {
                 fontSize: 14,
                 fontWeight: 600,
                 cursor: phase === "loading" ? "not-allowed" : "pointer",
-                border: `1px solid ${phase === "loading" ? C.border : C.accent}`,
-                background: phase === "loading" ? C.surface2 : C.accentBg,
-                color: phase === "loading" ? C.muted : C.accent,
+                border: `1px solid ${phase === "loading" ? C.border : dataset === "bundle" ? C.narrative : C.accent}`,
+                background: phase === "loading" ? C.surface2 : dataset === "bundle" ? C.narrativeBg : C.accentBg,
+                color: phase === "loading" ? C.muted : dataset === "bundle" ? C.narrative : C.accent,
                 transition: "all 0.15s",
                 letterSpacing: 0.2,
               }}
