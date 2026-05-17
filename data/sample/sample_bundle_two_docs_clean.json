@@ -1,0 +1,231 @@
+{
+  "level": "bundle",
+  "documentTitle": "Bundle — ACO Application 2021 + Renewal 2024 — Fictional Case A",
+  "cards": [
+    {
+      "cardId": "doc1_card_001",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 1,
+      "paragraph": 2,
+      "source": "ACO Application 2021, p. 1, par. 2",
+      "text": "The initial assessment documents persistent auditory hallucinations as the primary presenting symptom at the time of the application."
+    },
+    {
+      "cardId": "doc1_card_002",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 2,
+      "paragraph": 1,
+      "source": "ACO Application 2021, p. 2, par. 1",
+      "text": "The person refused an offer of voluntary hospitalization in October 2021, citing concerns about the proposed treatment environment."
+    },
+    {
+      "cardId": "doc1_card_003",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 2,
+      "paragraph": 3,
+      "source": "ACO Application 2021, p. 2, par. 3",
+      "text": "A diagnosis of schizoaffective disorder is established for the first time in this document, based on clinical observation and structured psychiatric interview."
+    },
+    {
+      "cardId": "doc1_card_004",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 4,
+      "paragraph": 1,
+      "source": "ACO Application 2021, p. 4, par. 1",
+      "text": "After four weeks of treatment in a closed unit, the evaluating psychiatrist notes partial but meaningful clinical improvement."
+    },
+    {
+      "cardId": "doc1_card_005",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 5,
+      "paragraph": 2,
+      "source": "ACO Application 2021, p. 5, par. 2",
+      "text": "The person demonstrated consistent participation in structured daily activities and group programming throughout the 2021 treatment period."
+    },
+    {
+      "cardId": "doc1_card_006",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 6,
+      "paragraph": 2,
+      "source": "ACO Application 2021, p. 6, par. 2",
+      "text": "At the close of the authorized period, the treating psychiatrist formally recommends a gradual and supported return to an open living setting."
+    },
+    {
+      "cardId": "doc1_card_007",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 7,
+      "paragraph": 1,
+      "source": "ACO Application 2021, p. 7, par. 1",
+      "text": "The person maintains regular and supportive contact with family members and her social network, as documented in the 2022 follow-up report."
+    },
+    {
+      "cardId": "doc1_card_008",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 8,
+      "paragraph": 1,
+      "source": "ACO Application 2021, p. 8, par. 1",
+      "text": "No violent incident, self-harm episode, or acute behavioral crisis is documented during the entire 2021–2022 authorization period."
+    },
+    {
+      "cardId": "doc1_card_009",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 8,
+      "paragraph": 2,
+      "source": "ACO Application 2021, p. 8, par. 2",
+      "text": "The person participates in a structured vocational reintegration program for six months in 2022, with consistent attendance documented by the program coordinator."
+    },
+    {
+      "cardId": "doc1_card_010",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 9,
+      "paragraph": 1,
+      "source": "ACO Application 2021, p. 9, par. 1",
+      "text": "Outpatient psychiatric follow-up is conducted on a twice-monthly basis following the end of the 2021 authorization, in accordance with the discharge care plan."
+    },
+    {
+      "cardId": "doc1_card_011",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 7,
+      "paragraph": 3,
+      "source": "ACO Application 2021, p. 7, par. 3",
+      "text": "The treating psychiatrist's end-of-period report characterizes the prognosis as moderately favorable, provided outpatient follow-up is sustained."
+    },
+    {
+      "cardId": "doc1_card_012",
+      "documentId": "doc_oas_2021",
+      "documentTitle": "ACO Application 2021 — Fictional Case A",
+      "page": 9,
+      "paragraph": 3,
+      "source": "ACO Application 2021, p. 9, par. 3",
+      "text": "A community-based housing support worker accompanies the person during the transition to independent living following the end of the 2021–2022 authorization period."
+    },
+    {
+      "cardId": "doc2_card_001",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 1,
+      "paragraph": 2,
+      "source": "Renewal Application 2024, p. 1, par. 2",
+      "text": "The renewal application asserts that the person poses an imminent danger to herself. No incident, crisis episode, or acute deterioration since 2022 is documented in support of this assertion."
+    },
+    {
+      "cardId": "doc2_card_002",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 2,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 2, par. 1",
+      "text": "The renewal cites the 2021 auditory hallucinations as evidence of the persistence of the psychiatric disorder in 2024, without documentation of ongoing or recurrent symptomatology in the intervening period."
+    },
+    {
+      "cardId": "doc2_card_003",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 2,
+      "paragraph": 3,
+      "source": "Renewal Application 2024, p. 2, par. 3",
+      "text": "The 2024 renewal presents the diagnosis as paranoid schizophrenia, replacing the 2021 diagnosis of schizoaffective disorder, without clinical explanation of this nosological change or reference to new assessment."
+    },
+    {
+      "cardId": "doc2_card_004",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 3,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 3, par. 1",
+      "text": "The 2021 end-of-period recommendation for a gradual return to an open setting is not referenced in the 2024 renewal application."
+    },
+    {
+      "cardId": "doc2_card_005",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 3,
+      "paragraph": 2,
+      "source": "Renewal Application 2024, p. 3, par. 2",
+      "text": "The renewal characterizes the 2022–2023 period as one of prolonged therapeutic non-compliance, without specifying the facts, incidents, or documentation on which this characterization is based."
+    },
+    {
+      "cardId": "doc2_card_006",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 3,
+      "paragraph": 3,
+      "source": "Renewal Application 2024, p. 3, par. 3",
+      "text": "The person's six-month participation in a structured vocational reintegration program in 2022 is not mentioned in the 2024 renewal application."
+    },
+    {
+      "cardId": "doc2_card_007",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 4,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 4, par. 1",
+      "text": "The 2021 refusal of voluntary hospitalization is presented in the renewal as part of a recurring pattern of refusal, without documentation of subsequent refusal episodes between 2021 and 2024."
+    },
+    {
+      "cardId": "doc2_card_008",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 4,
+      "paragraph": 2,
+      "source": "Renewal Application 2024, p. 4, par. 2",
+      "text": "The absence of any violent incident or acute behavioral crisis during the 2021–2022 authorization period is not referenced in the 2024 renewal."
+    },
+    {
+      "cardId": "doc2_card_009",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 5,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 5, par. 1",
+      "text": "The renewal states that all outpatient treatment alternatives have been attempted and proven insufficient, without referencing the twice-monthly outpatient follow-up that was actually conducted during 2021–2023."
+    },
+    {
+      "cardId": "doc2_card_010",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 5,
+      "paragraph": 2,
+      "source": "Renewal Application 2024, p. 5, par. 2",
+      "text": "The 2021 prognosis of moderately favorable with outpatient follow-up is replaced in the 2024 renewal by a guarded prognosis. No new clinical assessment supporting this change is referenced."
+    },
+    {
+      "cardId": "doc2_card_011",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 6,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 6, par. 1",
+      "text": "A social worker report from 2018, predating both the initial 2021 application and the current renewal, is cited as a current clinical reference in the 2024 renewal."
+    },
+    {
+      "cardId": "doc2_card_012",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 6,
+      "paragraph": 2,
+      "source": "Renewal Application 2024, p. 6, par. 2",
+      "text": "The 2024 renewal requests an authorization period of thirty-six months, compared to the twenty-four months of the 2021 authorization. No clinical justification for the increased duration is provided."
+    },
+    {
+      "cardId": "doc2_card_013",
+      "documentId": "doc_oas_2024_renewal",
+      "documentTitle": "ACO Renewal Application 2024 — Fictional Case A",
+      "page": 7,
+      "paragraph": 1,
+      "source": "Renewal Application 2024, p. 7, par. 1",
+      "text": "The regular and supportive family contacts documented in the 2022 follow-up report are characterized in the 2024 renewal as conflictual and destabilizing, without reference to documentation or intervening events explaining this shift."
+    }
+  ]
+}

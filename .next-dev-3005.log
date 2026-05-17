@@ -1,0 +1,23 @@
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3005
+- Network:       http://192.168.0.12:3005
+✓ Ready in 363ms
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- target was set to ES2017 (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)
+  	- include was updated to add '.next/dev/types/**/*.ts'
+
+  The following mandatory changes were made to your tsconfig.json:
+
+  	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+
+
+ GET / 200 in 1264ms (next.js: 1167ms, application-code: 96ms)
+[overview-agent] Error: GEMINI_API_KEY is not set
+ POST /api/overview 500 in 237ms (next.js: 222ms, application-code: 15ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 22ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+[?25h

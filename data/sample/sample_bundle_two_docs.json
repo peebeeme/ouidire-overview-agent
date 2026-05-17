@@ -1,0 +1,181 @@
+{
+  "level": "bundle",
+  "documentTitle": "Bundle — Initial ACO Application 2021 + Renewal Application 2024",
+  "cards": [
+    {
+      "id": "doc1_card_001",
+      "text": "The person presents persistent auditory hallucinations according to the initial assessment.",
+      "source": "ACO Application 2021, p. 1, par. 2",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_002",
+      "text": "The person refused voluntary hospitalization proposed in October 2021.",
+      "source": "ACO Application 2021, p. 2, par. 1",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_003",
+      "text": "A diagnosis of schizoaffective disorder is made for the first time in this document.",
+      "source": "ACO Application 2021, p. 2, par. 3",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_004",
+      "text": "The evaluator notes partial improvement after four weeks of treatment in a closed unit.",
+      "source": "ACO Application 2021, p. 4, par. 1",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_005",
+      "text": "At the end of the 2021-2022 authorization period, the treating psychiatrist recommends a gradual return to an open setting.",
+      "source": "ACO Application 2021, p. 6, par. 2",
+      "macros": [],
+      "humanNote": "Favorable recommendation not referenced in the 2024 renewal."
+    },
+    {
+      "id": "doc1_card_006",
+      "text": "The person maintains regular contact with family and her support network according to the 2022 closure report.",
+      "source": "ACO Application 2021, p. 7, par. 1",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_007",
+      "text": "The prognosis at the end of the 2021-2022 period is described as 'moderately favorable with outpatient follow-up'.",
+      "source": "ACO Application 2021, p. 7, par. 3",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_008",
+      "text": "No violent incident is documented during the 2021-2022 authorization period.",
+      "source": "ACO Application 2021, p. 8, par. 1",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_009",
+      "text": "The person participated in a vocational reintegration program for six months in 2022.",
+      "source": "ACO Application 2021, p. 8, par. 2",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc1_card_010",
+      "text": "Outpatient follow-up after the authorization was conducted twice monthly according to the care plan.",
+      "source": "ACO Application 2021, p. 9, par. 1",
+      "macros": [],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_001",
+      "text": "The renewal application asserts that the person poses an imminent danger without describing any incident since 2022.",
+      "source": "Renewal Application 2024, p. 1, par. 2",
+      "macros": ["critical_omission", "extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_002",
+      "text": "The renewal cites the 2021 auditory hallucinations as evidence of the persistence of the disorder in 2024.",
+      "source": "Renewal Application 2024, p. 2, par. 1",
+      "macros": ["RAP", "narrative_drift"],
+      "humanNote": "2021 hallucinations are presented as if they were current symptoms."
+    },
+    {
+      "id": "doc2_card_003",
+      "text": "The schizoaffective disorder diagnosis is reformulated as paranoid schizophrenia without explanation of this nosological change.",
+      "source": "Renewal Application 2024, p. 2, par. 3",
+      "macros": ["narrative_drift"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_004",
+      "text": "The 2021 recommendation for a gradual return to an open setting is not mentioned in the renewal.",
+      "source": "Renewal Application 2024, p. 3, par. 1",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_005",
+      "text": "The renewal describes the 2022-2023 period as 'prolonged non-compliance' without specifying the underlying facts.",
+      "source": "Renewal Application 2024, p. 3, par. 2",
+      "macros": ["critical_omission", "source_confusion"],
+      "humanNote": "Contradicts outpatient follow-up notes documenting consistent compliance."
+    },
+    {
+      "id": "doc2_card_006",
+      "text": "The person's participation in the 2022 vocational reintegration program is not mentioned.",
+      "source": "Renewal Application 2024, p. 3, par. 3",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_007",
+      "text": "The 2021 refusal of voluntary hospitalization is presented as a recurring pattern without documentation of subsequent refusals.",
+      "source": "Renewal Application 2024, p. 4, par. 1",
+      "macros": ["RAP", "extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_008",
+      "text": "The absence of violent incidents during 2021-2022 is not referenced in the renewal.",
+      "source": "Renewal Application 2024, p. 4, par. 2",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_009",
+      "text": "The applicant states that 'all alternatives have been tried' without reference to the outpatient follow-up that was actually carried out.",
+      "source": "Renewal Application 2024, p. 5, par. 1",
+      "macros": ["critical_omission", "extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_010",
+      "text": "The favorable 2021 prognosis is replaced by a 'guarded' prognosis in 2024 without a new documented clinical assessment.",
+      "source": "Renewal Application 2024, p. 5, par. 2",
+      "macros": ["narrative_drift", "critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_011",
+      "text": "A 2018 report — predating the initial 2021 application — is cited as a current clinical reference.",
+      "source": "Renewal Application 2024, p. 6, par. 1",
+      "macros": ["RAP"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_012",
+      "text": "The requested authorization period increases from 24 months (2021) to 36 months (2024) without documented justification.",
+      "source": "Renewal Application 2024, p. 6, par. 2",
+      "macros": ["extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_013",
+      "text": "The regular family contacts documented in 2022 are described in 2024 as 'conflictual and unstable'.",
+      "source": "Renewal Application 2024, p. 7, par. 1",
+      "macros": ["narrative_drift"],
+      "humanNote": "Direct contradiction with 2022 closure notes."
+    },
+    {
+      "id": "doc2_card_014",
+      "text": "No neuropsychological evaluation is produced in support of the incapacity conclusion.",
+      "source": "Renewal Application 2024, p. 7, par. 2",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "doc2_card_015",
+      "text": "The applicant is a different physician than the one who followed the person during 2021-2023.",
+      "source": "Renewal Application 2024, p. 8, par. 1",
+      "macros": ["source_confusion"],
+      "humanNote": "The signing physician met the person only once before filing the application."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "narrative_record_distortion": {
+    "label": "Narrative / Record Distortion",
+    "purpose": "How the record tells, recycles, distorts, or hardens a story over time or across documents.",
+    "macros": [
+      {
+        "key": "rap",
+        "label": "Recycled Allegation Pattern",
+        "definition": "An allegation, fact, or characterization from an earlier record reappears in a later document as if newly verified, without independent re-assessment.",
+        "lookFor": [
+          "Events described with temporal language (recently, again) that actually occurred years ago",
+          "Prior hospitalizations or crises cited as current risk evidence without documented recurrence",
+          "Diagnostic conclusions or behavioral descriptions carried forward without re-evaluation",
+          "A single incident from the distant past used as the primary basis for current authorization"
+        ],
+        "avoid": "Do not tag merely because a prior event is mentioned. Only tag when the prior event is presented as current evidence without independent re-verification."
+      },
+      {
+        "key": "narrative_drift",
+        "label": "Narrative Drift",
+        "definition": "The description of an event, condition, or behavior changes meaningfully between documents or across time, without documented explanation for the change.",
+        "lookFor": [
+          "A prognosis that shifts from favorable to guarded with no new clinical assessment",
+          "A behavior characterized positively in one document and negatively in another without explanation",
+          "A diagnosis that changes between documents without documented clinical reasoning",
+          "A period described as stable in one document and as non-compliant in a subsequent one"
+        ],
+        "avoid": "Do not tag when a documented change in condition or circumstances explicitly explains the shift in characterization."
+      },
+      {
+        "key": "source_confusion",
+        "label": "Source Confusion",
+        "definition": "The source of a claim is unclear, hearsay-based, attributed to an unidentified party, undated, or misattributed to the wrong document or author.",
+        "lookFor": [
+          "The family reports, third parties describe, nursing notes indicate — without attachment of signed or sworn statements",
+          "Undated documents or notes cited as evidence",
+          "References to exhibits or reports not appended to the file",
+          "Claims attributed to unnamed or unidentified staff members"
+        ],
+        "avoid": "Do not tag standard clinical notes clearly attributed to identifiable, named authors within the record."
+      },
+      {
+        "key": "biographical_rewriting",
+        "label": "Biographical Rewriting",
+        "definition": "The person's personal, social, or medical history is reformulated in ways that diverge materially from earlier documented facts, without explanation.",
+        "lookFor": [
+          "Positive facts from earlier records (employment, social contacts, therapeutic engagement) absent or reframed negatively in later documents",
+          "A stable period characterized as non-compliance without supporting documentation",
+          "A prior voluntary engagement reframed as crisis-driven or coerced",
+          "Social network described as supportive in an earlier document and as destabilizing in a later one"
+        ],
+        "avoid": "Do not tag when new documented events explicitly explain why the earlier characterization no longer applies."
+      },
+      {
+        "key": "claim_canonization",
+        "label": "Claim Canonization",
+        "definition": "A contested, unverified, or one-sided claim is repeated across the record until it appears established as objective fact.",
+        "lookFor": [
+          "A characterization that first appeared as an allegation and now appears as a documented fact without intermediate verification",
+          "Repeated use of the same evaluative language across multiple documents without new sourcing",
+          "Behavioral labels applied in one document and copied into subsequent documents as established",
+          "The person's own counter-narrative consistently omitted while the institutional account is reproduced"
+        ],
+        "avoid": "Do not tag facts that have been independently verified through multiple sources or acknowledged by the person themselves."
+      },
+      {
+        "key": "record_contradiction",
+        "label": "Record Contradiction",
+        "definition": "A statement in the document directly contradicts another statement in the same document or in a companion document, without acknowledgment or resolution.",
+        "lookFor": [
+          "A document that acknowledges a stabilizing fact in one section and ignores it in the clinical conclusion",
+          "Two documents that describe the same period or event in incompatible terms",
+          "A denial of risk or symptom in one document and assertion of imminent risk in another, covering the same period",
+          "The person described as calm and cooperative in one note and as agitated and dangerous in an adjacent note for the same encounter"
+        ],
+        "avoid": "Do not tag when the record acknowledges and explicitly explains the apparent contradiction."
+      }
+    ]
+  },
+  "clinical_diagnostic_failure": {
+    "label": "Clinical / Diagnostic Failure",
+    "purpose": "How clinical necessity, risk, diagnosis, causality, trauma, coercion, and validation are constructed or avoided in the record.",
+    "macros": [
+      {
+        "key": "refusal_of_objective_validation",
+        "label": "Refusal of Objective Validation",
+        "definition": "A clinical conclusion — about diagnosis, capacity, risk, or prognosis — is asserted without the objective evaluation, testing, or assessment that would normally be required to support it.",
+        "lookFor": [
+          "A capacity conclusion without neuropsychological assessment or standardized capacity screening",
+          "A risk conclusion without recent incident documentation or validated risk instrument",
+          "A prognosis stated with certainty without reference to outcome data or comparative cases",
+          "A diagnosis presented as established without documented structured assessment"
+        ],
+        "avoid": "Do not tag every absence of testing. Focus on situations where objective validation is materially required by clinical standards and is explicitly missing."
+      },
+      {
+        "key": "failure_of_differential_diagnosis",
+        "label": "Failure of Differential Diagnosis",
+        "definition": "A diagnosis or clinical conclusion is presented without documentation of alternative explanations that were considered and ruled out.",
+        "lookFor": [
+          "A single diagnosis asserted without discussion of what else was considered",
+          "A diagnostic change from one document to another with no clinical explanation",
+          "Behavioral presentations attributed to psychiatric cause without consideration of situational, relational, or organic factors",
+          "A conclusion of incapacity without examination of partial capacity or supported decision-making alternatives"
+        ],
+        "avoid": "Do not tag when the record explicitly considers and rules out alternative diagnoses or explanations, even briefly."
+      },
+      {
+        "key": "etiological_closure",
+        "label": "Etiological Closure",
+        "definition": "A single cause is asserted for the person's current condition or behavior without considering alternative explanations, contextual factors, or contributing history.",
+        "lookFor": [
+          "All current behavior attributed entirely to the psychiatric diagnosis without considering situational or relational context",
+          "A crisis attributed solely to non-compliance without examining what may have precipitated the episode",
+          "Historical patterns explained exclusively through the psychiatric frame without examining other plausible causes",
+          "Refusal of treatment explained only as symptom without considering prior adverse treatment experiences"
+        ],
+        "avoid": "Do not tag when the record genuinely addresses multiple contributing factors, even if imperfectly."
+      },
+      {
+        "key": "iatrogenic_cause_minimization",
+        "label": "Iatrogenic Cause Minimization",
+        "definition": "The potential role of prior treatment, medication, institutionalization, or care system contact in producing or worsening the person's current presentation is not considered.",
+        "lookFor": [
+          "Side effect complaints or concerns not documented or addressed in the clinical record",
+          "Deterioration following a medication change not analyzed for causal connection",
+          "A person's treatment refusal explained only as symptom without considering documented prior adverse effects",
+          "Institutional contact cited as a stabilizing factor without examination of whether it may have contributed to the current episode"
+        ],
+        "avoid": "Do not tag when the record explicitly examines and rules out iatrogenic contributions to the current presentation."
+      },
+      {
+        "key": "risk_inflation_under_uncertainty",
+        "label": "Risk Inflation Under Uncertainty",
+        "definition": "Risk or dangerousness is asserted with greater certainty or severity than the documented evidence supports, often by projecting from historical events to current risk.",
+        "lookFor": [
+          "Imminent danger asserted without a recent specific incident documented in the current file",
+          "Historical crises described as evidence of current risk without documented recurrence",
+          "Probability language (will deteriorate, cannot safely return) used without structured risk assessment or actuarial basis",
+          "A request for an extended authorization period without clinical justification for the duration"
+        ],
+        "avoid": "Do not tag when the risk conclusion is explicitly grounded in recent documented incidents, validated risk instruments, or clear clinical reasoning."
+      },
+      {
+        "key": "trauma_deferral",
+        "label": "Trauma Deferral",
+        "definition": "Traumatic history, adverse experiences, or potentially explanatory life events are present in the record but are not incorporated into the clinical reasoning or differential.",
+        "lookFor": [
+          "Notes about adverse history or traumatic events that do not appear in the clinical formulation",
+          "Trauma-related behavior interpreted purely as psychiatric symptom without considering trauma etiology",
+          "Absence of any trauma-informed framing when trauma is documented in the same file",
+          "A person's distrust of institutions attributed to pathology rather than examined in light of documented institutional harm"
+        ],
+        "avoid": "Do not tag when trauma is documented and the record explicitly incorporates it into the clinical reasoning, even partially."
+      },
+      {
+        "key": "coercion_through_ambiguity",
+        "label": "Coercion Through Ambiguity",
+        "definition": "Ambiguous behaviors, statements, or situations are consistently interpreted in ways that support compulsory measures, without considering alternative interpretations that would not support compulsion.",
+        "lookFor": [
+          "Refusal of treatment characterized as a clinical symptom rather than a right or a reasoned position",
+          "Legal or procedural requests by the person characterized as evidence of pathology",
+          "Calm and cooperative behavior at intake acknowledged but then dismissed as not excluding future risk",
+          "The person's own explanation for their behavior systematically reinterpreted through a clinical frame that supports compulsion"
+        ],
+        "avoid": "Do not tag when the ambiguous behavior is genuinely and immediately dangerous, or when the record explicitly examines and addresses non-compulsory alternatives."
+      },
+      {
+        "key": "root_cause_avoidance",
+        "label": "Root-Cause Avoidance",
+        "definition": "The underlying causes, contextual factors, or precipitating circumstances of the person's situation are not examined; only surface behaviors or presenting symptoms are documented and acted upon.",
+        "lookFor": [
+          "No inquiry into housing, social, financial, relational, or systemic factors that may explain the current episode",
+          "No discussion of what specifically triggered the current hospitalization or application",
+          "Stabilizing factors from the person's life (employment, support networks, community engagement) not considered in the clinical assessment",
+          "A longitudinal record of interventions without any analysis of why stabilization has not been durable"
+        ],
+        "avoid": "Do not tag when the record genuinely investigates contributing factors even if the inquiry is incomplete or the conclusions are disputed."
+      }
+    ]
+  }
+}

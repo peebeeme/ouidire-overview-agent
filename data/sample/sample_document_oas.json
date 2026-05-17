@@ -1,0 +1,146 @@
+{
+  "level": "document",
+  "documentTitle": "Application for Authorized Care Order — Fictional Case A",
+  "cards": [
+    {
+      "id": "card_001",
+      "text": "The evaluated person presents severe psychomotor agitation incompatible with a return to an ordinary living environment.",
+      "source": "ACO Application, p. 1, par. 2",
+      "macros": ["extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "card_002",
+      "text": "According to the psychiatric report of January 14th, the person refused all medication over the past six months.",
+      "source": "ACO Application, p. 1, par. 3",
+      "macros": [],
+      "humanNote": "To verify: the January 14th report is not attached to the file."
+    },
+    {
+      "id": "card_003",
+      "text": "The aggressive behavior observed during the 2019 hospitalization is documented as a determining antecedent.",
+      "source": "ACO Application, p. 2, par. 1",
+      "macros": ["RAP"],
+      "humanNote": null
+    },
+    {
+      "id": "card_004",
+      "text": "The family reports a marked deterioration over the past two months.",
+      "source": "ACO Application, p. 2, par. 2",
+      "macros": ["source_confusion"],
+      "humanNote": "Non-sworn statement, source not identified."
+    },
+    {
+      "id": "card_005",
+      "text": "The person denies all symptoms and claims to be in good health. This denial is interpreted as a sign of lack of insight.",
+      "source": "ACO Application, p. 2, par. 4",
+      "macros": ["extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "card_006",
+      "text": "The evaluator states that the person represents a danger to herself without citing any recent specific incident.",
+      "source": "ACO Application, p. 3, par. 1",
+      "macros": ["critical_omission", "extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "card_007",
+      "text": "The 2017 diagnosis of paranoid schizophrenia is reproduced without documented re-evaluation.",
+      "source": "ACO Application, p. 3, par. 2",
+      "macros": ["RAP"],
+      "humanNote": null
+    },
+    {
+      "id": "card_008",
+      "text": "The person maintained part-time employment for three years — a fact not mentioned in the evaluation.",
+      "source": "ACO Application, p. 3, par. 3",
+      "macros": ["critical_omission"],
+      "humanNote": "Confirmed by employment records — absent from the report."
+    },
+    {
+      "id": "card_009",
+      "text": "The 2021 order noted a favorable prognosis contingent on outpatient follow-up. This prognosis is not referenced in the current application.",
+      "source": "ACO Application, p. 4, par. 1",
+      "macros": ["critical_omission", "narrative_drift"],
+      "humanNote": null
+    },
+    {
+      "id": "card_010",
+      "text": "The requesting physician declares that all alternatives to compulsory care have been exhausted.",
+      "source": "ACO Application, p. 4, par. 2",
+      "macros": ["critical_omission"],
+      "humanNote": "No alternative outpatient plan is described anywhere in the file."
+    },
+    {
+      "id": "card_011",
+      "text": "A crisis episode from 2019 is described as 'recent' in an application filed in 2024.",
+      "source": "ACO Application, p. 4, par. 3",
+      "macros": ["RAP", "narrative_drift"],
+      "humanNote": null
+    },
+    {
+      "id": "card_012",
+      "text": "The person attended group therapy sessions in 2022 and 2023 according to community health center records — absent from the application.",
+      "source": "ACO Application, p. 5, par. 1",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "card_013",
+      "text": "The evaluator cites a fifteen-minute interview as the basis for a complete clinical assessment.",
+      "source": "ACO Application, p. 5, par. 2",
+      "macros": ["extrapolation"],
+      "humanNote": "Interview duration confirmed in nursing notes."
+    },
+    {
+      "id": "card_014",
+      "text": "The report refers to a 'long history of non-compliance' without specifying its nature or duration.",
+      "source": "ACO Application, p. 5, par. 3",
+      "macros": ["source_confusion", "critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "card_015",
+      "text": "The person allegedly stated a desire to stop all medication, according to an undated note from a social worker.",
+      "source": "ACO Application, p. 6, par. 1",
+      "macros": ["source_confusion"],
+      "humanNote": "Undated document filed without author identification."
+    },
+    {
+      "id": "card_016",
+      "text": "The prognosis without treatment is described as 'bleak' without reference to clinical literature or comparable cases.",
+      "source": "ACO Application, p. 6, par. 2",
+      "macros": ["extrapolation"],
+      "humanNote": null
+    },
+    {
+      "id": "card_017",
+      "text": "A 2018 social worker report — predating the initial 2021 application — is cited as a current clinical reference.",
+      "source": "ACO Application, p. 6, par. 3",
+      "macros": ["RAP"],
+      "humanNote": null
+    },
+    {
+      "id": "card_018",
+      "text": "The person explicitly refused to sign the consent form, which is documented but not discussed in the analysis.",
+      "source": "ACO Application, p. 7, par. 1",
+      "macros": ["critical_omission"],
+      "humanNote": null
+    },
+    {
+      "id": "card_019",
+      "text": "The physician concludes that the person is incapable of understanding the nature of her condition, without a documented cognitive assessment.",
+      "source": "ACO Application, p. 7, par. 2",
+      "macros": ["extrapolation", "critical_omission"],
+      "humanNote": "No neuropsychological evaluation or capacity assessment in the file."
+    },
+    {
+      "id": "card_020",
+      "text": "The application requests a 36-month care authorization — above common practice — without specific justification.",
+      "source": "ACO Application, p. 8, par. 1",
+      "macros": ["extrapolation"],
+      "humanNote": null
+    }
+  ]
+}
