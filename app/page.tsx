@@ -440,7 +440,7 @@ function DocumentOverviewSection({ result }: { result: DocumentAnalysis }) {
           }}
         >
           <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: 1.8, color: C.accent, marginBottom: 12, textTransform: "uppercase" as const }}>
-            Document thesis
+            Document analysis
           </div>
           <p style={{ margin: "0 0 12px", fontSize: 17, color: C.thesis, lineHeight: 1.75, fontStyle: "italic" }}>
             "{result.thesis}"
@@ -740,7 +740,7 @@ export default function Home() {
             { label: "→", color: C.dim, weight: 400 },
             { label: "Clusters", color: C.secondary, weight: 500 },
             { label: "→", color: C.dim, weight: 400 },
-            { label: "Document thesis", color: C.accent, weight: 600 },
+            { label: "Document analysis", color: C.accent, weight: 600 },
             { label: "→", color: C.dim, weight: 400 },
             { label: "Bundle thesis", color: C.narrative, weight: 700 },
           ].map(({ label, color, weight }, i) => (
