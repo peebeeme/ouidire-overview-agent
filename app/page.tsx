@@ -968,7 +968,7 @@ export default function Home() {
             <div>
               <span style={{ fontSize: 13, color: C.secondary }}>
                 Document analysis complete.
-              </span>
+              </span>{" "}
               <span style={{ fontSize: 13, color: C.muted, marginLeft: 8 }}>
                 See how OuiDire reasons across multiple documents:
               </span>
